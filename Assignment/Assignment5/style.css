@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+ header{
+     position: fixed;
+     top:0px;
+     left: 0px;
+     right: 0px;
+     height: 50 px;
+     line-height: 20px;
+     background-color:rgb(219, 88, 219);
+     
+ }
+ header *{
+     display: inline;
+     height: 50px;
+ }
+ header ul{
+     padding:0;
+ }
+ header li{
+     margin-left:px;
+}
+header a{
+    text-decoration: none;
+    color:white;
+}
+.flower{
+    height: 3rem;
+}
+h1{
+    font-size: 3em;
+}
+#home{
+    background-color:plum ;
+}
+#about{
+    background-color: rgb(161, 212, 233);
+
+}
+#about p{
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contact{
+    background-color: rgb(231, 172, 112);
+}
+section h2{
+    font: size 3.5em;;
+}
+section h3{
+    font: 2.5em;
+}
+section{
+    height:100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer{ 
+    background-color:slategray;
+    text-align: center;
+    padding-left: 50px;
+}
